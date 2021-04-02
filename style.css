@@ -1,0 +1,8 @@
+@media all {
+    #header-img {
+        max-width: 250px;
+    }
+}
+body {
+    background: url(https://resources.burtonandburton.com/images/catalog/139330_l.jpg);
+}
