@@ -1,3 +1,7 @@
+body, ul, li, h1, h2, a{
+    margin: 0;
+    padding: 0;
+}
 @media screen and (max-width:1600px){
     #header-img {
         max-width: 500px;
@@ -23,28 +27,45 @@ body {
 }
 header {
     text-align: center;
+    /* position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1; */
 }
 nav {
-    background-color: rgba(51, 50, 50, 50%);
-    padding: 1px;
+    background-color: rgba(51, 50, 50, 30%);
+    
+    padding: 0px;
     position: sticky;
-    top: 106px;
+    top: 0px;
     z-index: 1;
+    /* position: relative;
+    top: 106px;
+    z-index: 1; */
 }
 nav ul {
     white-space: nowrap;
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
     list-style-type: none;
     font-family: new tegomin;
     font-weight: bolder;
-    display: inline-block;
+    display: flex;
+    padding: 0 0 0 0;
+}
 
+ul{
+    justify-content: center;
+    
+}
+ul li {
+    margin: 0 5px;
 }
 a.nav-link {
     color: #000000;
     font-size: 20px;
-    width: 25%;
+    width: 50%;
     text-align: center;
     text-decoration: none;
 }
