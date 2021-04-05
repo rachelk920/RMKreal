@@ -1,8 +1,69 @@
-@media all {
+@media screen and (max-width:1600px){
     #header-img {
-        max-width: 250px;
+        max-width: 500px;
+    }
+}
+@media screen and (max-width:900px){
+    #header-img {
+        max-width: 300px;
+    }
+}
+@media screen and (max-width:700px){
+    #header-img {
+        max-width: 200px;
+    }
+}
+@media screen and (max-width: 400px){
+    #header-img {
+        max-width: 175px;
     }
 }
 body {
     background: url(https://resources.burtonandburton.com/images/catalog/139330_l.jpg);
 }
+header {
+    text-align: center;
+}
+nav {
+    background-color: rgba(51, 50, 50, 50%);
+    padding: 1px;
+    position: sticky;
+    top: 106px;
+    z-index: 1;
+}
+nav ul {
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    list-style-type: none;
+    font-family: new tegomin;
+    font-weight: bolder;
+    display: inline-block;
+
+}
+a.nav-link {
+    color: #000000;
+    font-size: 20px;
+    width: 25%;
+    text-align: center;
+    text-decoration: none;
+}
+a.nav-link:hover {
+    color: #333232;
+    text-decoration: underline;
+}
+p {
+    font-size: 40px;
+}
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+  }
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
