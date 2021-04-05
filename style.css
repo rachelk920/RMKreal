@@ -34,7 +34,8 @@ header {
     z-index: 1; */
 }
 nav {
-    background-color: rgba(51, 50, 50, 30%);
+    /* background-color: rgba(51, 50, 50, 60%); */
+    background-color: rgba(199, 156, 113, 70%);
     padding: 0px;
     position: sticky;
     top: 0px;
@@ -51,7 +52,7 @@ nav ul {
     font-family: new tegomin;
     font-weight: bolder;
     display: flex;
-    padding: 0 0 0 0;
+    /* padding: 0 0 0 0; */
 }
 
 ul{
@@ -69,7 +70,7 @@ a.nav-link {
     text-decoration: none;
 }
 a.nav-link:hover {
-    color: #333232;
+    color: #352208;
     text-decoration: underline;
 }
 p {
