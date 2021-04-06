@@ -136,7 +136,6 @@ a.nav-link:hover {
     font-size: 20px;
 }
 
-
 p#interested {
     font-size: 25px;
 }
@@ -144,6 +143,17 @@ p#interested {
 p#us {
     font-size: 40px;
 }
+
+.pix img {
+    width: 25%;
+    height: 25%;
+}
+
+.pix img:hover {
+    transform: scale(1.1);
+}
+
+/* #opt7a.textbox {width: 200px; height: 100px; padding: 1px} */
 
 .videoWrapper {
     position: relative;
