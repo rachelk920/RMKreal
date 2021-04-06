@@ -2,29 +2,41 @@ body, ul, li, h1, h2, a{
     margin: 0;
     padding: 0;
 }
+
 @media screen and (max-width:1600px){
     #header-img {
         max-width: 500px;
     }
 }
+
 @media screen and (max-width:900px){
     #header-img {
         max-width: 300px;
     }
+    nav ul {
+        flex-direction: column;
+    }
+    a.nav-link {
+        padding: 0;
+    }
 }
+
 @media screen and (max-width:700px){
     #header-img {
         max-width: 200px;
     }
 }
+
 @media screen and (max-width: 400px){
     #header-img {
         max-width: 175px;
     }
 }
+
 body {
     background: url(https://resources.burtonandburton.com/images/catalog/139330_l.jpg);
 }
+
 header {
     text-align: center;
     /* position: fixed;
@@ -33,6 +45,7 @@ header {
     left: 0;
     z-index: 1; */
 }
+
 nav {
     /* background-color: rgba(51, 50, 50, 60%); */
     background-color: rgba(199, 156, 113, 70%);
@@ -44,6 +57,7 @@ nav {
     top: 106px;
     z-index: 1; */
 }
+
 nav ul {
     white-space: nowrap;
     max-width: 1600px;
@@ -59,28 +73,34 @@ ul{
     justify-content: center;
     
 }
+
 ul li {
     margin: 0 50px;
 }
+
 a.nav-link {
     color: #000000;
     font-size: 20px;
-    width: 50%;
+    /* width: 50%; */
     text-align: center;
     text-decoration: none;
 }
+
 a.nav-link:hover {
     color: #352208;
     text-decoration: underline;
 }
+
 p {
     font-size: 40px;
 }
+
 .videoWrapper {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
     height: 0;
   }
+
 .videoWrapper iframe {
     position: absolute;
     top: 0;
