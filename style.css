@@ -14,6 +14,9 @@ body, ul, li, h1, h2, a{
     #header-img {
         max-width: 300px;
     }
+    span {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width:700px){
@@ -98,12 +101,36 @@ a.nav-link:hover {
     text-decoration: underline;
 }
 
-p {
+#about {
     font-size: 40px;
 }
 
 #fblogo {
     max-width: 25px;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#barrel{
+    display: inline-flex;
+    flex-direction: column;
+    
+}
+#contactus {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+
+p#interested {
+    font-size: 25px;
+}
+
+p#us {
+    font-size: 40px;
 }
 
 .videoWrapper {
