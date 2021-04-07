@@ -21,6 +21,7 @@ body, ul, li, h1, h2, a{
     }
     .img-fluid {
         max-width: 200px;
+        max-height: 200px;
     }
 }
 
@@ -41,6 +42,7 @@ body, ul, li, h1, h2, a{
     }
     .img-fluid {
         max-width: 200px;
+        max-height: 200px;
     }
 }
 
@@ -54,7 +56,8 @@ body, ul, li, h1, h2, a{
         justify-content: center;
     }
     .img-fluid {
-        max-width: 200px;
+        max-width: 150px;
+        max-height: 150px;
     }
 }
 
