@@ -4,66 +4,6 @@ body, ul, li, h1, h2, a{
     font-family: new tegomin;
 }
 
-@media screen and (max-width:1600px){
-    #header-img {
-        max-width: 500px;
-    }
-}
-
-@media screen and (max-width:900px){
-    #header-img {
-        max-width: 300px;
-    }
-    span {
-        font-size: 15px;
-        text-align: center;
-        justify-content: center;
-    }
-    .img-fluid {
-        max-width: 200px;
-        max-height: 200px;
-    }
-    #about {
-        padding-top: 75px;
-    }
-}
-
-@media screen and (max-width:700px){
-    #header-img {
-        max-width: 200px;
-    }
-    nav ul {
-        flex-direction: column;
-    }
-    a.nav-link {
-        padding: 0;
-    }
-    span {
-        font-size: 15px;
-        text-align: center;
-        justify-content: center;
-    }
-    .img-fluid {
-        max-width: 200px;
-        max-height: 200px;
-    }
-}
-
-@media screen and (max-width: 400px){
-    #header-img {
-        max-width: 175px;
-    }
-    span {
-        font-size: 15px;
-        text-align: center;
-        justify-content: center;
-    }
-    .img-fluid {
-        max-width: 150px;
-        max-height: 115px;
-    }
-}
-
 body {
     background: url(https://resources.burtonandburton.com/images/catalog/139330_l.jpg);
 }
@@ -129,8 +69,10 @@ a.nav-link:hover {
 }
 
 #about {
-    font-size: 40px;
+    font-size: 30px;
     padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #fblogo {
@@ -203,3 +145,72 @@ p {
     height: 100%;
   }
 
+@media screen and (max-width:1600px){
+    #header-img {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width:900px){
+    #header-img {
+        max-width: 300px;
+    }
+    span {
+        font-size: 15px;
+        text-align: center;
+        justify-content: center;
+    }
+    .img-fluid {
+        max-width: 200px;
+        max-height: 200px;
+    }
+    #about {
+        font-size: 25px;
+        padding-top: 75px;
+        
+    }
+}
+
+@media screen and (max-width:700px){
+    #header-img {
+        max-width: 200px;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    a.nav-link {
+        padding: 0;
+    }
+    span {
+        font-size: 15px;
+        text-align: center;
+        justify-content: center;
+    }
+    .img-fluid {
+        max-width: 200px;
+        max-height: 200px;
+    }
+    #about {
+        padding-top: 120px;
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #header-img {
+        max-width: 175px;
+    }
+    span {
+        font-size: 15px;
+        text-align: center;
+        justify-content: center;
+    }
+    .img-fluid {
+        max-width: 150px;
+        max-height: 115px;
+    }
+    #about {
+        padding-top: 120px;
+        font-size: 18px;
+    }
+}
