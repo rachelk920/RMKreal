@@ -17,19 +17,20 @@ header {
     z-index: 1; */
 }
 
-nav {
+#nav-bar {
     /* background-color: rgba(51, 50, 50, 60%); */
     background-color: rgba(199, 156, 113, 70%);
     padding: 0px;
     position: sticky;
     top: 0px;
     z-index: 1;
+    color: #212529;
     /* position: relative;
     top: 106px;
     z-index: 1; */
 }
 
-nav ul {
+#navbar-nav {
     white-space: nowrap;
     max-width: 1600px;
     margin: 0 auto;
@@ -37,6 +38,7 @@ nav ul {
     font-family: new tegomin;
     font-weight: bolder;
     display: flex;
+    color: #212529;
     /* padding: 0 0 0 0; */
 }
 
@@ -70,7 +72,7 @@ a.nav-link:hover {
 
 #about {
     font-size: 30px;
-    padding-top: 40px;
+    /* padding-top: 40px; */
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -111,9 +113,10 @@ p#us {
     flex-wrap: wrap;
 }
 
-#pix {
+/* #pix {
     padding-top: 50px;
-}
+} */
+
 
 .pix img {
     width: 100%;
@@ -170,7 +173,7 @@ p {
     }
     #about {
         font-size: 25px;
-        padding-top: 75px;
+        /* padding-top: 75px; */
         
     }
 }
@@ -195,7 +198,7 @@ p {
         max-height: 200px;
     }
     #about {
-        padding-top: 120px;
+        /* padding-top: 120px; */
         font-size: 22px;
     }
 }
@@ -214,7 +217,7 @@ p {
         max-height: 115px;
     }
     #about {
-        padding-top: 120px;
+        /* padding-top: 120px; */
         font-size: 18px;
         padding-left: 10px;
         padding-right: 10px;
@@ -223,7 +226,7 @@ p {
     p {
         font-size: 18px;
     }
-    #pix {
+    /* #pix {
         padding-top: 130px;
-    }
+    } */
 }
